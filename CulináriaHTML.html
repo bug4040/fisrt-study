@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="CulináriaCSS.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>
+            <h1>Cozinha</h1>
+            <h2>Açúcar</h2>
+            <p class="minititle">Adicione açúcar aqui</p>
+            <div>
+                <button type="button" id="sugar">1 xícara</button>
+                <button type="button" id="sugar05">1/2 xícara</button>
+                <button type="button" id="sugar025">1/4 xícara</button>
+                <button type="button" id="sugarZero">tire todo o açúcar aqui</button>
+            </div>
+            <p> xícaras de açúcar: <em id="countSugar">0</em></p>
+        </div>
+        <div>
+            <h2>Trigo</h2>
+            <p class="minititle">adicione trigo aqui</p>
+            <div>
+                <button type="button" id="wheat">1 xícara</button>
+                <button type="button" id="wheat05">1/2 xícara</button>
+                <button type="button" id="wheat025">1/4 xícara</button>
+                <button type="button" id="wheatZero">tire todo o trigo aqui</button>
+            </div>
+            <p>xícaras de trigo: <em id="countWheat">0</em></p>
+        </div>
+        <div>
+            <h2>Ovos</h2>
+            <p class="minititle">adicione ovos aqui</p>
+            <div>
+                <button type="button" id="eggs">1 ovo</button>
+                <button type="button" id="eggsZero">tire todos os ovos aqui</button>
+            </div>
+            <p>ovos: <em id="countEggs">0</em></p>
+        </div>
+        <h2>Forno</h2>
+        <div>
+            <p>insira aqui a temperatura do forno</p>
+            <button type="button" id="graus160">160°C</button>
+            <button type="button" id="graus180">180°C</button>
+            <button type="button" id="graus210">210°C</button>
+            <button type="button" id="graus240">240°C</button>
+            <button type="button" id="graus270">270°C</button>
+        </div>
+        <div>
+            <p>temperatura destinada:</p>
+            <p id="temperatura">.</p>   
+        </div>
+        </div>
+        <div>
+        <p>insira aqui o tempo do forno</p>
+            <button type="button" id="time1">+1</button>
+            <button type="button" id="time5">+5</button>
+            <button type="button" id="time10">+10</button>
+            <button type="button" id="time20">+20</button>
+            <button type="button" id="time30">+30</button>
+            <button type="button" id="time1m">-1</button>
+            <button type="button" id="time5m">-5</button>
+            <button type="button" id="time10m">-10</button>
+            <button type="button" id="time20m">-20</button>
+            <button type="button" id="time30m">-30</button>
+        </div>
+        <div>
+            <p>tempo destinado:</p>
+            <p id="tempoHTML">.</p>   
+        </div>
+        <button type="button" id="preHeat">pré-aquecer o forno</button>
+        <button type="button" id="cold">deixar o forno esfriar</button>
+        <div>
+            <p>forno quente na temperatura certa?</p>
+            <p id="heat">não</p>
+        </div>
+        <button type="button" id="cook">levar ao forno para cozinhar</button>
+        <p id="cozido"></p>
+        <button type="button" id="testBrownie">você conseguiu fazer um brownie?</button>
+<script type="text/javascript" src="CulináriaJS.js"></script>
+    </body>
+</html>
